@@ -68,7 +68,7 @@ O notebook está organizado em seções com títulos em Markdown seguidas de cé
 | SPEEDING_VIOLATIONS | Número de infrações por excesso de velocidade | Numérico |
 | DUIS | Número de registros dirigindo sob efeito | Numérico |
 | PAST_ACCIDENTS | Número de acidentes passados | Numérico |
-| OUTCOME | Acionou sinistro? (1=Sim, 0=Não) | Binário |
+| OUTCOME | Acionou sinistro? | Binário |
 
 ---
 
@@ -88,7 +88,6 @@ Nesta fase, foi realizada uma verificação completa da qualidade e integridade 
 
 **1. Integridade dos Dados**
 - ✅ Não foram identificados erros de tipagem relevantes
-- Campos `MARRIED` e `CHILDREN` são variáveis binárias (valores 0 ou 1)
 - **Recomendação:** Conversão para tipo booleano para melhorar performance e clareza semântica
 
 **2. Duplicidade de Dados**
