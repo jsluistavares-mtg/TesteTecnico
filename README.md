@@ -368,7 +368,7 @@ Os seguintes pontos **EXIGEM** revisão técnica antes de decisões críticas:
 ---
 
 ## 👤 Autor
-**José Luis Tavares** - Análise Técnica de Dados
+**José Luis Tavares** - Analista de Dados
 
 ---
 
