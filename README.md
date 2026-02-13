@@ -22,6 +22,30 @@ TesteTecnico/
 
 ---
 
+## 🔧 Como Executar a Análise
+
+### Pré-requisitos
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+### Executar no Jupyter
+1. Abra `TesteTecnico.ipynb` no Jupyter Notebook, Jupyter Lab ou Google Colab
+2. Execute todas as células sequencialmente
+3. Os gráficos e análises aparecem inline no notebook
+
+### Estrutura das Células
+O notebook está organizado em seções com títulos em Markdown seguidas de células Python:
+- **Importação de Bibliotecas**: Setup inicial
+- **Carregamento de Dados**: Leitura do CSV
+- **Auditoria**: Verificação de qualidade
+- **Tratamento**: Imputação de valores faltantes
+- **KPIs**: Cálculo de indicadores
+- **Segmentação**: Análises por grupos
+- **Relatórios**: Interpretações e insights
+
+---
+
 ## 📊 Variáveis da Base de Dados
 
 | Campo | Descrição | Tipo |
@@ -320,30 +344,6 @@ Os seguintes pontos **EXIGEM** revisão técnica antes de decisões críticas:
 - **Incentivos de Manutenção:** Oferecer benefícios para proprietários de veículos antigos que mantêm manutenção preventiva
 - **Parcerias com Oficinas:** Verificar condição de veículos como critério para redução de prêmios
 - **Programa de Fidelidade:** Recompensar clientes de baixo risco com prêmios reduzidos
-
----
-
-## 🔧 Como Executar a Análise
-
-### Pré-requisitos
-```bash
-pip install pandas numpy matplotlib seaborn
-```
-
-### Executar no Jupyter
-1. Abra `TesteTecnico.ipynb` no Jupyter Notebook, Jupyter Lab ou Google Colab
-2. Execute todas as células sequencialmente
-3. Os gráficos e análises aparecem inline no notebook
-
-### Estrutura das Células
-O notebook está organizado em seções com títulos em Markdown seguidas de células Python:
-- **Importação de Bibliotecas**: Setup inicial
-- **Carregamento de Dados**: Leitura do CSV
-- **Auditoria**: Verificação de qualidade
-- **Tratamento**: Imputação de valores faltantes
-- **KPIs**: Cálculo de indicadores
-- **Segmentação**: Análises por grupos
-- **Relatórios**: Interpretações e insights
 
 ---
 
