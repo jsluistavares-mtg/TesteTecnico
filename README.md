@@ -22,6 +22,56 @@ TesteTecnico/
 
 ---
 
+## 🔧 Como Executar a Análise
+
+### Pré-requisitos
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+### Executar no Jupyter
+1. Abra `TesteTecnico.ipynb` no Jupyter Notebook, Jupyter Lab ou Google Colab
+2. Execute todas as células sequencialmente
+3. Os gráficos e análises aparecem inline no notebook
+
+### Estrutura das Células
+O notebook está organizado em seções com títulos em Markdown seguidas de células Python:
+- **Importação de Bibliotecas**: Setup inicial
+- **Carregamento de Dados**: Leitura do CSV
+- **Auditoria**: Verificação de qualidade
+- **Tratamento**: Imputação de valores faltantes
+- **KPIs**: Cálculo de indicadores
+- **Segmentação**: Análises por grupos
+- **Relatórios**: Interpretações e insights
+
+---
+
+## 📊 Variáveis da Base de Dados
+
+| Campo | Descrição | Tipo |
+|-------|-----------|------|
+| ID | Identificador único do cliente | Numérico |
+| AGE | Faixa etária | Categórico |
+| GENDER | Gênero | Categórico |
+| RACE | Raça/Etnia | Categórico |
+| DRIVING_EXPERIENCE | Anos de experiência na direção | Categórico |
+| EDUCATION | Nível de educação | Categórico |
+| INCOME | Classe socioeconômica | Categórico |
+| CREDIT_SCORE | Score de crédito (0-1) | Numérico |
+| VEHICLE_OWNERSHIP | Proprietário do veículo | Binário |
+| VEHICLE_YEAR | Período do ano do veículo | Categórico |
+| MARRIED | Estado marital | Binário |
+| CHILDREN | Possui filhos | Binário |
+| POSTAL_CODE | Código postal | Categórico |
+| ANNUAL_MILEAGE | Quilometragem anual | Numérico |
+| VEHICLE_TYPE | Tipo de veículo | Categórico |
+| SPEEDING_VIOLATIONS | Número de infrações por excesso de velocidade | Numérico |
+| DUIS | Número de registros dirigindo sob efeito | Numérico |
+| PAST_ACCIDENTS | Número de acidentes passados | Numérico |
+| OUTCOME | Acionou sinistro? | Binário |
+
+---
+
 ## 💻 Fases da Análise
 
 ### 1. **AUDITORIA DOS DADOS** 🔍
@@ -38,7 +88,6 @@ Nesta fase, foi realizada uma verificação completa da qualidade e integridade 
 
 **1. Integridade dos Dados**
 - ✅ Não foram identificados erros de tipagem relevantes
-- Campos `MARRIED` e `CHILDREN` são variáveis binárias (valores 0 ou 1)
 - **Recomendação:** Conversão para tipo booleano para melhorar performance e clareza semântica
 
 **2. Duplicidade de Dados**
@@ -297,56 +346,6 @@ Os seguintes pontos **EXIGEM** revisão técnica antes de decisões críticas:
 
 ---
 
-## 🔧 Como Executar a Análise
-
-### Pré-requisitos
-```bash
-pip install pandas numpy matplotlib seaborn
-```
-
-### Executar no Jupyter
-1. Abra `TesteTecnico.ipynb` no Jupyter Notebook, Jupyter Lab ou Google Colab
-2. Execute todas as células sequencialmente
-3. Os gráficos e análises aparecem inline no notebook
-
-### Estrutura das Células
-O notebook está organizado em seções com títulos em Markdown seguidas de células Python:
-- **Importação de Bibliotecas**: Setup inicial
-- **Carregamento de Dados**: Leitura do CSV
-- **Auditoria**: Verificação de qualidade
-- **Tratamento**: Imputação de valores faltantes
-- **KPIs**: Cálculo de indicadores
-- **Segmentação**: Análises por grupos
-- **Relatórios**: Interpretações e insights
-
----
-
-## 📊 Variáveis da Base de Dados
-
-| Campo | Descrição | Tipo |
-|-------|-----------|------|
-| ID | Identificador único do cliente | Numérico |
-| AGE | Faixa etária | Categórico |
-| GENDER | Gênero | Categórico |
-| RACE | Raça/Etnia | Categórico |
-| DRIVING_EXPERIENCE | Anos de experiência na direção | Categórico |
-| EDUCATION | Nível de educação | Categórico |
-| INCOME | Classe socioeconômica | Categórico |
-| CREDIT_SCORE | Score de crédito (0-1) | Numérico |
-| VEHICLE_OWNERSHIP | Proprietário do veículo | Binário |
-| VEHICLE_YEAR | Período do ano do veículo | Categórico |
-| MARRIED | Estado marital | Binário |
-| CHILDREN | Possui filhos | Binário |
-| POSTAL_CODE | Código postal | Categórico |
-| ANNUAL_MILEAGE | Quilometragem anual | Numérico |
-| VEHICLE_TYPE | Tipo de veículo | Categórico |
-| SPEEDING_VIOLATIONS | Número de infrações por excesso de velocidade | Numérico |
-| DUIS | Número de registros dirigindo sob efeito | Numérico |
-| PAST_ACCIDENTS | Número de acidentes passados | Numérico |
-| OUTCOME | Acionou sinistro? (1=Sim, 0=Não) | Binário |
-
----
-
 ## 📝 Conclusões Finais
 
 ### ✅ Validado
@@ -370,11 +369,6 @@ O notebook está organizado em seções com títulos em Markdown seguidas de cé
 
 ## 👤 Autor
 **José Luis Tavares** - Análise Técnica de Dados
-
----
-
-## 📄 Licença
-Este projeto é fornecido como está para fins de análise educacional.
 
 ---
 
