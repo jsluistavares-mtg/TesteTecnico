@@ -22,6 +22,32 @@ TesteTecnico/
 
 ---
 
+## 📊 Variáveis da Base de Dados
+
+| Campo | Descrição | Tipo |
+|-------|-----------|------|
+| ID | Identificador único do cliente | Numérico |
+| AGE | Faixa etária | Categórico |
+| GENDER | Gênero | Categórico |
+| RACE | Raça/Etnia | Categórico |
+| DRIVING_EXPERIENCE | Anos de experiência na direção | Categórico |
+| EDUCATION | Nível de educação | Categórico |
+| INCOME | Classe socioeconômica | Categórico |
+| CREDIT_SCORE | Score de crédito (0-1) | Numérico |
+| VEHICLE_OWNERSHIP | Proprietário do veículo | Binário |
+| VEHICLE_YEAR | Período do ano do veículo | Categórico |
+| MARRIED | Estado marital | Binário |
+| CHILDREN | Possui filhos | Binário |
+| POSTAL_CODE | Código postal | Categórico |
+| ANNUAL_MILEAGE | Quilometragem anual | Numérico |
+| VEHICLE_TYPE | Tipo de veículo | Categórico |
+| SPEEDING_VIOLATIONS | Número de infrações por excesso de velocidade | Numérico |
+| DUIS | Número de registros dirigindo sob efeito | Numérico |
+| PAST_ACCIDENTS | Número de acidentes passados | Numérico |
+| OUTCOME | Acionou sinistro? (1=Sim, 0=Não) | Binário |
+
+---
+
 ## 💻 Fases da Análise
 
 ### 1. **AUDITORIA DOS DADOS** 🔍
@@ -321,32 +347,6 @@ O notebook está organizado em seções com títulos em Markdown seguidas de cé
 
 ---
 
-## 📊 Variáveis da Base de Dados
-
-| Campo | Descrição | Tipo |
-|-------|-----------|------|
-| ID | Identificador único do cliente | Numérico |
-| AGE | Faixa etária | Categórico |
-| GENDER | Gênero | Categórico |
-| RACE | Raça/Etnia | Categórico |
-| DRIVING_EXPERIENCE | Anos de experiência na direção | Categórico |
-| EDUCATION | Nível de educação | Categórico |
-| INCOME | Classe socioeconômica | Categórico |
-| CREDIT_SCORE | Score de crédito (0-1) | Numérico |
-| VEHICLE_OWNERSHIP | Proprietário do veículo | Binário |
-| VEHICLE_YEAR | Período do ano do veículo | Categórico |
-| MARRIED | Estado marital | Binário |
-| CHILDREN | Possui filhos | Binário |
-| POSTAL_CODE | Código postal | Categórico |
-| ANNUAL_MILEAGE | Quilometragem anual | Numérico |
-| VEHICLE_TYPE | Tipo de veículo | Categórico |
-| SPEEDING_VIOLATIONS | Número de infrações por excesso de velocidade | Numérico |
-| DUIS | Número de registros dirigindo sob efeito | Numérico |
-| PAST_ACCIDENTS | Número de acidentes passados | Numérico |
-| OUTCOME | Acionou sinistro? (1=Sim, 0=Não) | Binário |
-
----
-
 ## 📝 Conclusões Finais
 
 ### ✅ Validado
@@ -370,11 +370,6 @@ O notebook está organizado em seções com títulos em Markdown seguidas de cé
 
 ## 👤 Autor
 **José Luis Tavares** - Análise Técnica de Dados
-
----
-
-## 📄 Licença
-Este projeto é fornecido como está para fins de análise educacional.
 
 ---
 
